@@ -1,0 +1,176 @@
+
+/* COLOR PALETTE
+--dun: #DCCCB4ff;
+--cadet-gray: #8B9998ff;
+--lapis-lazuli: #27597Dff;
+--asparagus: #8DA659ff;
+--gunmetal: #112528ff; */
+
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    box-sizing: border-box;
+}
+
+#heroSection {
+    background-image: url("images/spring hill.jpeg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    /* height: 400px; */
+    /* padding: 50px; */
+}
+
+h1 {
+    margin-top:0;
+    color: #DCCCB4ff;
+    font-size: 4rem;
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
+    padding: 100px 0 25px 0;    
+}
+
+h2 {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    color: #DCCCB4ff;
+    font-size: 2rem;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+#activitiesSection {
+    background-color: #27597D;
+    padding: 80px 0 50px 0;
+}
+
+.activity-item {
+    width: 20%;
+    transition: .2s;
+}
+
+.activity-item:hover {
+    transform: scale(115%);
+    border-radius: 25px;
+}
+
+.activity-item:hover .activity-item-header {
+    text-decoration: underline;
+}
+
+#activity-items {
+    margin: 0px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.activity-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-bottom: 15px;
+    transition: .4s;
+}
+
+.activity-img:hover {
+    border-radius: 25px;
+}
+
+h2.activities-header {
+    
+    padding-bottom: 100px;
+    font-size: 2.5rem;    
+}
+
+.activity-item-header {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: rgb(207, 207, 207);
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+    transition: .4s;
+}
+
+.activity-item-desc {
+    color: rgb(207, 207, 207);
+    font-size: 1rem;
+    line-height: 1.5;
+    text-shadow: 0px 0px 2px rgb(0, 0, 0);
+    font-style: italic;
+}
+
+#websiteLink {
+    margin: 75px 0 0;
+    font-size: 1.1rem;
+    color: #DCCCB4ff;
+    font-style: italic;
+}
+
+a {
+    /* text-decoration: none; */
+    color: #DCCCB4ff;
+    transition: .2s;
+}
+
+
+a:hover {
+    color: rgb(184, 169, 148);
+}
+
+#guideSection {
+    padding: 40px 0;
+    background-color: #FAF9F6;
+}
+
+#guide-container {
+    width: 800px;
+    background: #DCCCB4ff;
+    border-radius: 20px 5px 40px 5px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 30px rgb(0, 0, 0, .5);
+}
+
+.guide-img {
+    height: 400px;
+    transform: rotate(2.5deg);
+    border-radius: 5px;
+}
+
+#guide-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 365px;
+    border-radius: 50px;
+}
+
+#guide-desc h2 {
+    color:#27597Dff;
+    text-shadow: none;
+    font-size: 2.5rem;
+    margin: 10px auto;
+    padding-bottom: 0;
+}
+
+#guide-desc p {
+    font-size: 1.3rem;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+#guide-desc h3 {
+    color:#27597Dff;
+    text-shadow: none;
+    font-size: 2rem;
+    margin: 10px 0; 
+}
+
+
